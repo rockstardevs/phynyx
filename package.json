@@ -1,0 +1,32 @@
+{
+  "name": "phynyx",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Sumit Arora <singhsays@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rockstardevs/phynyx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rockstardevs/phynyx/issues"
+  },
+  "homepage": "https://github.com/rockstardevs/phynyx",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.5.x"
+  },
+  "dependencies": {
+    "commander": "^2.16.0",
+    "csv": "^3.1.0",
+    "eslint": "^5.0.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "mongo-models": "^2.0.3",
+    "mongodb": "^3.1.0",
+    "signale": "^1.2.1",
+    "uuid": "^3.3.2"
+  },
+  "bin": {
+    "phynyx": "./cli.js"
+  }
+}
